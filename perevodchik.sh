@@ -45,7 +45,7 @@ elif [[ -d $1 ]] ; then
             
             
             mv -vf "$line" "$new_name"
-            mv -v  $new_name /home/hdd/torrent/$random_dir
+           # mv -v  $new_name /home/hdd/torrent/$random_dir
             echo -e "$RED _________________ $ENDCOLOR\n"
 
             done
